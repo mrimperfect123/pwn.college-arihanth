@@ -1,0 +1,23 @@
+# Intro To Arguments
+The challenge asks you to open the terminal in the pwn.college DOJO and try typing the commands for the 1st time and invoke them and get simple outcomes like printing hello or print who am i.
+
+## My Solve
+**Flag:** 'pwn.college{MIpSjbeFZPlparDkOMt9kF7kOBk.QX3YjM1wyN4EzNzEzW}'
+
+Basically in this challenge we are only supposed to execute one liner in order to get to know the language used in pwn.college dojo here
+we just typed hello and we recived a flag or we also wrote whoami in response to it gave our name which is hacker
+so here we where able to learn the functioning of whoami command  which simply prints the username (hacker) to the terminal.When the command terminates, the shell once again displays the prompt, ready for the next command.
+
+```
+hacker@hello~intro-to-commands:~$ hello
+Success! Here is your flag:
+pwn.college{MIpSjbeFZPlparDkOMt9kF7kOBk.QX3YjM1wyN4EzNzEzW}
+hacker@hello~intro-to-commands:~$ ^C
+hacker@hello~intro-to-commands:~$ whoami
+hacker
+```
+
+## What I Learned
+I learnt the functioning of whoami command on linux and also got to know that linux is a case sensitive language so hello is different from HELLO.
+## References
+None.(did not use any youtube video or website to learn this as such )
