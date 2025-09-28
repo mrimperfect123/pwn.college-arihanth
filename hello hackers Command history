@@ -1,0 +1,21 @@
+# Command History
+The challenge teaches you how to reduce your typing time or copy pasting time just by usingh up arrow and using your previous codes
+
+## My Solve
+**Flag:** ' pwn.college{ktM4Dvwi_2mytHLAUY6fwdZ7Yng.0lNzEzNxwyN4EzNzEzW}'
+
+In this challenge we were suppose to use up and down arrow to reduce our typing time and using the old history of commands written by us 
+
+```
+hacker@hello~command-history:~$ echo Hello
+Hello
+hacker@hello~command-history:~$ echo Hello         #here we used up arrow in order to copy and paste the same command as above
+Hello 
+hacker@hello~command-history:~$ the flag is pwn.college{ktM4Dvwi_2mytHLAUY6fwdZ7Yng.0lNzEzNxwyN4EzNzEzW}    #here i just pressed up arrow key twiice in order to find that secret code hidden in the challenge 
+```
+
+## What I Learned
+I learnt how Linux commands can reduce our typing and copy pasting time by just using up and down arrow and acessing our old commands
+
+## References
+None.
